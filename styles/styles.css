@@ -1,0 +1,66 @@
+/* Main CSS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  padding: 1rem;
+  text-align: center;
+}
+
+p,
+h1 {
+  overflow-wrap: break-word;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  color: #000000;
+}
+
+p {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+form {
+  background-color: #f9fafb;
+  width: 80vw;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 12.5px;
+}
+
+input {
+  width: 15rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 12.5rem;
+  text-align: center;
+  color: #6c727f;
+}
+
+button {
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: #3662e3;
+  color: #ffffff;
+  border: 4px;
+  width: 15rem;
+  border-radius: 12.5px;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+span {
+  font-weight: 400;
+  font-size: 0.875rem;
+}
