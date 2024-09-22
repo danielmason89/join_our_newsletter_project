@@ -12,6 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   padding: 1rem;
   text-align: center;
+  background-color: #f0f0f0;
 }
 
 p,
@@ -33,19 +34,27 @@ p {
 
 form {
   background-color: #f9fafb;
-  width: 80vw;
+  max-width: 30rem;
+  margin: 0 auto;
   text-align: center;
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 12.5px;
+  box-shadow: 0 2px 10ox rgba(0, 0, 0, 0.1);
 }
 
 input {
-  width: 15rem;
-  padding: 0.5rem;
-  margin: 1rem;
-  border-radius: 12.5rem;
+  width: 80%;
+  padding: 0.75rem;
+  margin: 1rem 0;
+  border-radius: 25px;
+  border: 1px solid #ccc;
   text-align: center;
   color: #6c727f;
+  font-size: 1rem;
+}
+
+input::placeholder {
+  color: #a0a0a0;
 }
 
 button {
@@ -53,11 +62,12 @@ button {
   font-size: 1rem;
   background-color: #3662e3;
   color: #ffffff;
-  border: 4px;
-  width: 15rem;
-  border-radius: 12.5px;
-  padding: 0.5rem;
-  margin: 1rem;
+  border: none;
+  width: 80%;
+  border-radius: 25px;
+  padding: 0.75rem;
+  margin: 1rem 0;
+  cursor: pointer;
 }
 
 span {
